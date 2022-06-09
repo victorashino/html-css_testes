@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'normal';
+    src: url("fonts/Nuosu_SIL/NuosuSIL-Regular.ttf") format("truetype");
+}
+
+:root{
+    --cor01: #2C3532;
+    --cor02: #0F6466;
+    --cor03: #D8B08C;
+    --cor04: #FFCB9A;
+    --cor05: #D2E8E3;
+
+    --fonte-normal: normal, Arial, Verdana, Helvetica, sans-serif;
+    --fonte-paragrafo: 'inc', Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor05);
+    font-family: var(--fonte-normal), Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+header{
+    background: var(--cor02) url("img/fundo-pequeno.jpg") center right no-repeat;
+
+    padding: 70px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+}
+
+header h1,p{
+    text-align: center;
+}
+
+nav{
+    margin: 50px 47px -50px -62px;
+}
+
+nav > a{
+    background-color: transparent;
+    color: var(--cor05);
+    border: 1px solid var(--cor05);
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    padding: 5px 10px;
+    margin: 0px 3px;
+}
+
+nav a:hover{
+    background-color: #d2e8e365;
+    color: black;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 25px;
+    max-width: 980px;
+    min-width: 350px;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main h1, h2{
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+main p{
+    font-size: 1.2em;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+div#video{
+    background-color: var(--cor05);
+    margin: 0px 0px 30px 0px;
+    position: relative;
+    padding-bottom: 57%;
+}
+
+div#video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: var(--cor05);
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+aside h3{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+aside ul{
+    list-style-position: inside;
+    columns: 3;
+}
+
+footer{
+    background-color: var(--cor01);
+    color: white;
+    text-align: center;
+}
