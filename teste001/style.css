@@ -45,7 +45,7 @@ nav{
 
 nav > a{
     background-color: transparent;
-    color: var(--cor05);
+    color: white;
     border: 1px solid var(--cor05);
     border-radius: 10px;
 
@@ -53,6 +53,8 @@ nav > a{
 
     padding: 5px 10px;
     margin: 0px 3px;
+
+    transition-duration: 0.4s;
 }
 
 nav a:hover{
