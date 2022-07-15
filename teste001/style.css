@@ -28,11 +28,32 @@ body{
     font-weight: normal;
 }
 
-header{
+header#index{
     background: var(--cor02) url("img/fundo-pequeno.jpg") center right no-repeat;
 
     padding: 70px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+}
+
+header#especies{
+    background: var(--cor02) url("img/img-fundo-2p.jpg") center center no-repeat;
+
+    padding: 70px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+}
+
+header#reproducao{
+    background: var(--cor02) url("img/img-repr.jpg") center center no-repeat;
+
+    padding: 70px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+    color: rgb(252, 252, 222);
+    color-interpolation-filters: auto;
+}
+
+header#reproducao a{
+    border: 1px solid black;
+    color: black;
 }
 
 header h1,p{
@@ -126,4 +147,5 @@ footer{
     background-color: var(--cor01);
     color: white;
     text-align: center;
+    padding: 5px;
 }
